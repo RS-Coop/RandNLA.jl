@@ -1,0 +1,15 @@
+name = "RandNLA"
+uuid = "7d2d31ca-c6d0-42e4-b4e7-80a371aba314"
+authors = ["Cooper Simpson"]
+version = "0.1.0"
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+LinearOperators = "5c8ed15e-5a4c-59e4-a42b-c7e8811fb125"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
