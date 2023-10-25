@@ -6,7 +6,7 @@ authors:
   orcid: "https://orcid.org/0000-0003-3922-2797"
 title: "RandNLA.jl"
 version: 0.0.0
-doi: 
+doi: 10.1/2
 date-released: 2023-12-01
 url: "https://github.com/rs-coop/RandNLA.jl"
 note: "Julia algorithms for randomized numerical linear algebra"
