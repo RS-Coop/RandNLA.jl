@@ -7,7 +7,7 @@ RandNLA.jl is a pure julia package for fundamental operations and state-of-the-a
 ## License & Citation
 All source code is made available under an MIT license. You can freely use and modify the code, without warranty, so long as you provide attribution to the authors. See `LICENSE` for the full text.
 
-This repository can be cited using the entry in `CITATION`.
+This repository can be cited using the GitHub action in the sidebar, or using the metadata in `CITATION.cff`.
 
 ## Features
 - AbstractFloat support?

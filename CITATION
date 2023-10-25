@@ -1,7 +1,0 @@
-@misc{randnla-julia,
-  author = {Simpson, Cooper},
-  title = {RandNLA.jl},
-  howpublished = {\url{github.com/RS-Coop/RandNLA}},
-  note = {{Julia algorithms for randomized numerical linear algebra}},
-  year = {2023}
-}
