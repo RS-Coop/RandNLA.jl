@@ -19,7 +19,7 @@ This repository can be cited using the GitHub action in the sidebar, or using th
 This package can be installed just like any other Julia package. From the terminal, after starting the Julia REPL, run the following:
 ```julia
 julia> ]
-pkg> add RSFN
+pkg> add RandNLA
 ```
 
 ### Testing

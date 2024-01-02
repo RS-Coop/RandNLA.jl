@@ -43,7 +43,7 @@ function nystrom(A::AbstractMatrix{T}, k::I, s::I=0; check::Bool=false) where {T
     n = size(A, 1)
 
     #NOTE: This could be an arbitrary sketch
-    S = gaussian_sketch(n, k+s) #get sketching operator
+    S = gaussian(n, k+s) #get sketching operator
 
     Y = A*S #compute sketch
 
