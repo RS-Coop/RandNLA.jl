@@ -8,10 +8,14 @@ module RandNLA
 #=
 Setup
 =#
-using Requires
+using Random
 using LinearAlgebra
 
-include("")
+include("sketching/sketch.jl")
+include("decompositions/nystrom.jl")
+include("decompositions/svd.jl")
+include("decompositions/id.jl")
+include("decompositions/id.jl")
 
 #=
 If optional packages are loaded then export compatible functions.

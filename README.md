@@ -71,7 +71,20 @@ using RandNLA
 
 ## Roadmap
 1. Basic Sketching
-    - 
+    - Agnostic to RNG, i.e. use `AbstractRNG` type
+    - Left vs. right sketching
+    - Explicit vs implicit, i.e. is the sketching opeartor realized
+    - Dense sketching operators
+        - Rademacher
+        - Uniform
+        - Gaussian
+        - Haar
+        - Can allow for abitrary distribution as well
+        - Methods for constructing these distributions?
+    - Sparse sketching opeartors
+        - Short-axis
+        - Long-axis
+        - iid
 2. Property estimation
     - Trace
     - Norm
